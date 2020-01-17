@@ -16,6 +16,7 @@ public class Student {
     private int age;
     private String email;
     private String program;
+    private String term;
 
     /**
      * Get the value of name
@@ -89,6 +90,20 @@ public class Student {
      */
     public void setProgram(String program) {
         this.program = program;
+    }
+
+    /**
+     * @return the term
+     */
+    public String getTerm() {
+        return term;
+    }
+
+    /**
+     * @param term the term to set
+     */
+    public void setTerm(String term) {
+        this.term = term;
     }
 
 }
