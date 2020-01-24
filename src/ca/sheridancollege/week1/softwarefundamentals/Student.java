@@ -12,6 +12,7 @@ package ca.sheridancollege.week1.softwarefundamentals;
 public class Student {
     
     private String name;
+    private String status;
     private int ID;
     private int age;
     private String email;
@@ -89,6 +90,20 @@ public class Student {
      */
     public void setProgram(String program) {
         this.program = program;
+    }
+
+    /**
+     * @return the status
+     */
+    public String getStatus() {
+        return status;
+    }
+
+    /**
+     * @param status the status to set
+     */
+    public void setStatus(String status) {
+        this.status = status;
     }
 
 }
